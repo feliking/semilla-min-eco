@@ -1,0 +1,86 @@
+{
+    "menu": [
+        {
+            "url": "config",
+            "icon": "settings",
+            "label": "Configuraciones",
+            "submenu": [
+                {
+                    "url": "entidades",
+                    "label": "Entidades"
+                },
+                {
+                    "url": "usuarios",
+                    "label": "Usuarios"
+                },
+                {
+                    "url": "modulos",
+                    "label": "Módulos y permisos"
+                },
+                {
+                    "url": "parametros",
+                    "label": "Preferencias"
+                },
+                {
+                    "url": "logs",
+                    "label": "Logs del sistema"
+                }
+            ]
+        }
+    ],
+    "token": "TOKEN_GENERADO_BACKEND",
+    "permisos": {
+        "config:read": true,
+        "config:create": true,
+        "config:update": true,
+        "config:delete": true,
+        "entidades:read": true,
+        "entidades:create": true,
+        "entidades:update": true,
+        "entidades:delete": true,
+        "personas:read": true,
+        "personas:create": true,
+        "personas:update": true,
+        "personas:delete": true,
+        "usuarios:read": true,
+        "usuarios:create": true,
+        "usuarios:update": true,
+        "usuarios:delete": true,
+        "modulos:read": true,
+        "modulos:create": true,
+        "modulos:update": true,
+        "modulos:delete": true,
+        "parametros:read": true,
+        "parametros:create": true,
+        "parametros:update": true,
+        "parametros:delete": true,
+        "permisos:read": true,
+        "permisos:create": true,
+        "permisos:update": true,
+        "permisos:delete": true,
+        "roles:read": true,
+        "roles:create": true,
+        "roles:update": true,
+        "roles:delete": true,
+        "logs:read": true,
+        "logs:create": true,
+        "logs:update": true,
+        "logs:delete": true,
+        "serviciosIop:read": true,
+        "serviciosIop:create": true,
+        "serviciosIop:update": true,
+        "serviciosIop:delete": true
+    },
+    "usuario": {
+        "usuario": "admin",
+        "nombres": "Administrador",
+        "primer_apellido": "Sistema",
+        "segundo_apellido": "",
+        "email": "admin@example.com",
+        "id_entidad": 1,
+        "entidad": "Nombre Entidad",
+        "rol": "SUPERADMIN",
+        "lang": "es"
+    },
+    "redirect": ""
+}
